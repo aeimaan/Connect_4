@@ -195,23 +195,8 @@ while restart:
                 pygame.display.update()
 
             if game_over:
-                pygame.time.wait(1000)
-                # pygame.draw.rect(screen, BLACK, (0, 265, width, 170))
-                # label = pygame.font.SysFont("monospace", 50).render("PLAY AGAIN?", 1, YELLOW)
-                # screen.blit(label, (202, 285))
-                #
-                # btnYes = pygame.draw.rect(screen, btnYes_colour, (216, 350, width / 7, 50), 3)
-                # label = pygame.font.SysFont("monospace", 40).render("YES", 1, YELLOW)
-                # screen.blit(label, (230, 352))
-                #
-                # btnNo = pygame.draw.rect(screen, btnNo_colour, (396, 350, width / 7, 50), 3)
-                # label = pygame.font.SysFont("monospace", 40).render("NO", 1, YELLOW)
-                # screen.blit(label, (423, 352))
-                #
-                # pygame.display.update()
-                pygame.time.wait(1000)
-                #pygame.quit()
-                # sys.exit()
+                pygame.time.wait(2000)
+
 
     screen = pygame.display.set_mode(size)
     while running:
