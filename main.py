@@ -55,16 +55,17 @@ def empty_board(arr):
 
 
 def print_board(arr):
-    printed = 0
-    str = ''
-    for i in arr:
-        str += i + " "
-        printed += 1
-        if printed == COL_COUNT:
-            print(str)
-            printed = 0
-            str = ''
-    print("\n")
+    pass
+    # printed = 0
+    # str = ''
+    # for i in arr:
+    #     str += i + " "
+    #     printed += 1
+    #     if printed == COL_COUNT:
+    #         print(str)
+    #         printed = 0
+    #         str = ''
+    # print("\n")
 
 
 def drop_piece(arr, col, turn):
